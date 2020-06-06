@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>973054277659-a8lubdp25qjb7343ua00kfq8qp7brrir.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.973054277659-a8lubdp25qjb7343ua00kfq8qp7brrir</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALPVNorupuI-zcbDsK4Ym2NedLOB84z0o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>973054277659</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.devventure.ShoppingList</string>
+	<key>PROJECT_ID</key>
+	<string>shoppinglist-ceb25</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shoppinglist-ceb25.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:973054277659:ios:4abf74e0cdb854f8aa20be</string>
+	<key>DATABASE_URL</key>
+	<string>https://shoppinglist-ceb25.firebaseio.com</string>
+</dict>
+</plist>
