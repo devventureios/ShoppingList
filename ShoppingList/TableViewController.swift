@@ -24,8 +24,17 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logout))
+        
         title = Auth.auth().currentUser?.displayName
         loadItems()
+    }
+    
+    @objc func logout() {
+        try? Auth.auth().signOut()
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") else {return}
+        navigationController?.viewControllers = [vc]
     }
     
     private func loadItems() {

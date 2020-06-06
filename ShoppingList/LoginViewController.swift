@@ -59,7 +59,7 @@ class LoginViewController: UIViewController {
     
     func showMainScreen() {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "TableViewController") else {return}
-        navigationController?.show(vc, sender: nil)
+        navigationController?.viewControllers = [vc]
     }
 }
 
